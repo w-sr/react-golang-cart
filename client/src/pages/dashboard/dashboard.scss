@@ -1,0 +1,98 @@
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebebeb;
+
+  p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .cart-item {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 12px;
+      margin-left: 20px;
+    }
+  }
+
+  .price-total {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 12px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.cart-item {
+  display: flex;
+
+  .image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #ebebeb;
+
+    .name-line {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+
+      span {
+        font-size: 12px;
+      }
+
+      .quantity {
+        font-size: 14px;
+      }
+
+      .price {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+
+    .description-line {
+      display: flex;
+      justify-content: space-between;
+
+      .description {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.react-numeric-input {
+  font-size: 14px;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-area button {
+  outline: none;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
